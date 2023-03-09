@@ -1,6 +1,6 @@
 # CS35L-Assignment2
 
-### Project Spec
+### Assignment Spec
 
 __Part 1:__
 
@@ -22,5 +22,5 @@ Your program should support the following shuf options, with the same behavior a
 
 Your solution should use the argparse module instead of the obsolescent optparse. It should not import any modules other than argparse, string and the non-optparse modules that randline.py already imports. Don’t forget to change its usage message to accurately describe the modified behavior.
 
-See more info about project spec here: 
+See more info about assignment spec here: 
 https://web.cs.ucla.edu/classes/winter23/cs35L/assign/assign2.html 
