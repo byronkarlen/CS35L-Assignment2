@@ -3,6 +3,7 @@
 ### Project Spec
 
 __Part 1:__
+
 Use the Emacs command M-x what-line and see what it does.
 
 M-x what-line simply tells you what line you are on, not how many lines are in the buffer. Design and implement an Emacs Lisp command M-x gps-line that acts like M-x what-line except that it says “Line 27/106” in contexts where M-x what-line would merely say “Line 27”; here, it’s assumed the buffer has 106 lines. 
@@ -12,6 +13,7 @@ When counting all the lines in a buffer, simply count the number of newline char
 Test your function on buffers that do not end in newline. Your function should be able to say things like “Line 1/0” and “Line 3/2”.
 
 __Part 2:__
+
 Consider the old-fashioned Python 2 script randline.py
 
 Write a new script shuf.py in the style of randline.py but using Python 3 instead. Your script should implement the GNU shuf command that is part of GNU Coreutils. GNU shuf is written in C, whereas you want a Python implementation so that you can more easily add new features to it.
